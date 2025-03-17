@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.promote{
+    margin-top: 170px;
+}
+.promote .container{
+    display: flex;
+    justify-content: space-around;
+}
+.promote .container .left{
+    width: 80%;
+}
+.promote .container .left h2{
+    
+    line-height: 70px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.promote .container img{
+    width: 80%;
+}
