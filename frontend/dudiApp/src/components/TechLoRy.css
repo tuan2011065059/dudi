@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tech{
+    margin-top: 100px;
+}
+.tech .container .content{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-size: 30px;
+}
+.tech .container .content span{
+    border-radius: 50%;
+    border: 3px solid black;
+}

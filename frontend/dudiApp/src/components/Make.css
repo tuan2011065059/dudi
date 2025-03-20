@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.make{
+
+}
+.make .container{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.make .container .content{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 300px;
+}
+.make .container .content .right img{
+    width: 40%;
+    mix-blend-mode: multiply;
+    margin-left: 40%;
+}

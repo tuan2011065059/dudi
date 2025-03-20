@@ -1,0 +1,44 @@
+.case-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3d3d3d; /* Màu nền tối */
+    padding: 30px;
+    border-radius: 12px;
+  }
+  
+  .case-card {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .case-card:last-child {
+    border-right: none;
+  }
+  
+  .case-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .case-card a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .case-card a svg {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .case-card a:hover svg {
+    transform: translateX(5px);
+  }
+  
