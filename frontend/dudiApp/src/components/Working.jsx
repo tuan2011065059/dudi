@@ -79,18 +79,6 @@ const Working = () => {
             </div>
         </>
     );
-
-    return (
-        <div className='working'>
-            <div className='container d-flex justify-content-left'>
-                <span className='b-block border rounded p-3 bg-danger text-white'>Our Working Process </span>
-                <p className='ms-5 fs-5'>Step-by-Step Guide to Achieving Your Business Goals</p>
-                <div className='content'>
-                    <div className='item'></div>
-                </div>
-            </div>
-        </div>
-    )
 }
 
 export default Working

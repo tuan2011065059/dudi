@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    background-color: rgb(84, 80, 80);
+    color: white;
+}
+.footer .container .content {
+     display: flex;
+     justify-content: space-between;
+}
+.footer .container .content h3{
+    margin:35px 0;
+}
+.footer .container .content ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.footer .container .content ul li p{
+    margin-left: 20px;
+}
+.footer .container .content ul li i{
+    margin-top: 7px;
+}
+.footer .container .mxh .fab{
+    margin: 0 30px;
+}
+.footer .container iframe{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
