@@ -18,7 +18,7 @@ const Case = () => {
   return (
     <div className="case my-5">
       <div className='container d-flex justify-content-left'>
-        <span className='b-block border rounded p-3 bg-danger text-white'>Case Studies</span>
+      <span className='d-inline-block border rounded bg-danger text-white' style={{ height: '20px', lineHeight: '1px' }}>Case Studies</span>
         <p className='ms-5 fs-5'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
       </div>
       <div className="case-container container my-5">

@@ -10,17 +10,22 @@
     margin-top: 50px;
     
   }
-
+.recruitment .container .rounded{
+  padding: 15px 50px;
+}
 
  .recruitment  .grid-container .item {
     /* background: lightblue; */
     padding: 50px 30px;
-    
+    transition: all 1.5s;
     font-size: 20px;
     /* border: 2px solid black; */
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     
+  }
+  .recruitment  .grid-container .item:hover{
+    background-color: blanchedalmond;
   }
  .recruitment .grid-container .item .content{
     display: flex;

@@ -32,3 +32,9 @@
     height: 200px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 768px){
+    .footer .container .content .mobile{
+        display: none;
+    }
+}

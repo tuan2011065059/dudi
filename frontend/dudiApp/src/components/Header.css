@@ -1,39 +1,102 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.header{
+  }
+  
+  .header {
     padding: 15px 50px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: white; /* Để header không bị trong suốt */
-    z-index: 1000; /* Đảm bảo header luôn nằm trên các phần tử khác */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
-}
-.header .container{
+    background: white;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header .logo{
-    margin-right: -430px;
-}
-.header .logo img{
-    width: 10%;
+  }
+  .header .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header .logo img {
+    width: 80px;
     border-radius: 10px;
-}
-.header .container .nav{
+  }
+  
+  /* Menu chính */
+  .nav {
     width: 80%;
-}
-.header .container .nav ul li{
-    display: inline-block;
-    margin-right: 50px;
-}
-.header .container .nav ul button{
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    margin-left: 40%;
+  }
+  
+  .nav ul li {
+    cursor: pointer;
+  }
+  
+  .nav ul button {
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
+    cursor: pointer;
+  }
+.header .menu-btn{
+    display: none;
 }
+  
+  /* Ẩn menu trên mobile */
+  @media screen and (max-width: 768px) {
+    .nav {
+      position: fixed;
+      top: 0;
+      left: -250px;
+      width: 250px;
+      height: 100vh;
+      background: white;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+      transition: left 0.3s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .nav.open {
+      left: 0;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .menu-btn {
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+    .header .menu-btn{
+        display: block;
+    }
+  }
+  

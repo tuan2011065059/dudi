@@ -6,19 +6,26 @@
 
 }
 .make .container{
-    background-color: antiquewhite;
-    border-radius: 20px;
+    background-color: f3f3f3;
+    border-radius: 30px;
 }
 .make .container .content{
+    width: 100%;
     padding: 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: #f3f3f3;
     height: 300px;
+    border-radius: 20px;
 }
 .make .container .content .right img{
     width: 40%;
     mix-blend-mode: multiply;
     margin-left: 40%;
+}
+@media screen and (max-width: 768px){
+    .make .container .content .left p{
+        display: none;
+    }
 }

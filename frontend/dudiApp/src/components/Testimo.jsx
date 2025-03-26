@@ -49,7 +49,7 @@ const Testimo = () => {
   return (
     <>
     <div className='container d-flex justify-content-left my-5'>
-                <span className='b-block border rounded p-3 bg-danger text-white'>Testimonials </span>
+                <span className='d-inline-block border rounded bg-danger text-white'>Testimonials </span>
                 
             </div>
     <div className="testimonial-container">

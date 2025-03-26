@@ -16,10 +16,28 @@
 .promote .container .left h2{
     
     line-height: 70px;
-    font-size: 50px;
+    font-size: 300%;
     font-weight: 500;
 }
 
 .promote .container img{
     width: 80%;
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+
+@media screen and (max-width: 768px){
+    .promote .container h2{
+        font-size: 20px !important;
+    }
+    .promote .container{
+        display: block;
+    }
 }

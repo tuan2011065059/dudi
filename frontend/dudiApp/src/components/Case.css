@@ -6,7 +6,9 @@
     padding: 30px;
     border-radius: 12px;
   }
-  
+  .case .container .rounded{
+    padding: 24px 45px;
+  }
   .case-card {
     flex: 1;
     padding: 20px;

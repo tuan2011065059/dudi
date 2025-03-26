@@ -8,6 +8,9 @@
     position: relative;
 }
 
+.container .rounded{
+    padding: 15px 50px;
+}
 /* Style cho từng testimonial box */
 .testimonial-box {
     background: #1a1a1a;

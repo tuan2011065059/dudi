@@ -4,7 +4,7 @@ const Recruitment = () => {
     return (
         <div className='recruitment my-5'>
             <div className='container d-flex justify-content-left'>
-                <span className='b-block border rounded p-3 bg-danger text-white'>Case Studies</span>
+                <span className='d-inline-block border rounded bg-danger text-white'>Recruitment</span>
             </div>
             <div className="grid-container container">
                 <div className="item item1">

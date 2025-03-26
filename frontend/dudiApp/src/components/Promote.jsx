@@ -16,5 +16,5 @@ const Promote = () => {
     </div>
   )
 }
-
+ 
 export default Promote
