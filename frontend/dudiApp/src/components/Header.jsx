@@ -14,15 +14,25 @@ const Header = () => {
                     </div>
                     <div className={`nav ${menuOpen ? "open" : ""}`}>
                         <ul>
-                            <li>About Us</li>
-                            <li>Services</li>
-                            <li>Use Cases</li>
-                            <li>Pricing</li>
-                            <li>Blog</li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Use Cases</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
                             <button>Request a quote</button>
                         </ul>
                     </div>
-                    <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
+                    <button className="menu-btn btn btn-primary" onClick={() => setMenuOpen(!menuOpen)}>
                         {menuOpen ? "✖" : "☰"}
                     </button>
                 </div>
