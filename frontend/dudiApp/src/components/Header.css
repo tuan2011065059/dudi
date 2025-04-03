@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: white;
+    background: rgba(255, 255, 255, 0.816);
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -41,10 +41,11 @@
   
   /* Menu chính */
   .nav {
-    width: 80%;
+    width: 120%;
   }
   
   .nav ul {
+    width: 120%;
     display: flex;
     gap: 20px;
     list-style: none;
@@ -54,6 +55,7 @@
   
   .nav ul li {
     cursor: pointer;
+    
   }
   
   .nav ul button {
@@ -68,6 +70,15 @@
 .header .menu-btn{
     display: none;
 }
+
+/* Khi menu item được chọn, đổi màu */
+.nav ul li a.active {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
   
   /* Ẩn menu trên mobile */
   @media screen and (max-width: 768px) {

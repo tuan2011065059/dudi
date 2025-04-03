@@ -1,3 +1,4 @@
+import BackToTop from "./components/BackToTop"
 import Case from "./components/Case"
 import Contact from "./components/Contact"
 import Foodter from "./components/Foodter"
@@ -27,6 +28,7 @@ function App() {
       <Testimo/>
       <Contact/>
       <Foodter/>
+      <BackToTop/>
     </>
   )
 }

@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -10,8 +10,62 @@
     justify-content: space-around;
     padding: 50px;
     font-size: 30px;
+    padding: 30px;
+    
 }
-.tech .container .content span{
-    border-radius: 50%;
-    border: 3px solid black;
+
+.tech .container .content .icon{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 0%;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tech {
+    margin-top: 100px;
+}
+
+.tech .container {
+    text-align: center;
+}
+
+.tech .container .content {
+    display: flex;
+    justify-content: center; /* Căn giữa các icon */
+    gap: 20px; /* Khoảng cách giữa các ô */
+    flex-wrap: wrap; /* Đảm bảo xuống dòng nếu không đủ chỗ */
+    padding: 30px;
+}
+
+.tech .container .content .icon {
+    width: 100px; /* Đảm bảo tất cả ô có cùng kích thước */
+    height: 100px;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 15px; 
+    transition: all 0.3s ease; 
+    background: rgba(255, 255, 255, 0.1); 
+    transition: transform 0.3s ease-in-out;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.3); 
+    
+}
+.tech .container .content .icon:hover{
+    background-color: #f7c7c7;
+    box-shadow: 0 0 15px #9b59b6;
+}
+
+/* Hover effect để tạo cảm giác nổi bật */
+.tech .container .content .icon:hover {
+    transform: scale(1.1);
+    background-color: #f7c7c7;
 }

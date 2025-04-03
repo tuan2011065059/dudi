@@ -13,7 +13,7 @@ const steps = [
     {
         id: 2,
         title: "Research and Strategy Development",
-        content: 
+        content:
             "We conduct in-depth research and develop a tailored marketing strategy to meet your business objectives.",
     },
     {

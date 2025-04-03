@@ -26,7 +26,8 @@ const Foodter = () => {
                             <p>dudisoftware@gmail.com</p>
                         </li>
                         <li className='d-flex'>
-                            <input class="form-control w-75" placeholder='Email' type="text" />
+                            <input pattern="[a-zA-Z0-9._%+-]+@gmail\.com" 
+    required  type="email" class="form-control w-75" placeholder='Email' />
                             <button className='btn btn-danger'>Subscribe</button>
                         </li>
                         <li className="mxh">

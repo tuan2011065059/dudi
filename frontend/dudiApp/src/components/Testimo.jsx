@@ -70,7 +70,7 @@ const Testimo = () => {
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
-            <div className="testimonial-box">
+            <div id="us" className="testimonial-box">
               <p className="testimonial-text">{testimonial.text}</p>
               <h5 className="testimonial-name">{testimonial.name}</h5>
               <p className="testimonial-position">{testimonial.position}</p>
