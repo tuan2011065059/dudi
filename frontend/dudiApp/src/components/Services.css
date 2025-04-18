@@ -47,6 +47,14 @@
   .services .grid-container .item .content .left h3{
     margin-bottom: 60px;
   }
+  .services .grid-container .item .content .left .mx-2{
+    color: white;
+    text-decoration: none;
+  }
+  .services .grid-container .item .content .left .mx-2:hover{
+    color: red;
+  }
+
  .services .grid-container .item .content{
     display: flex;
     justify-content: space-around;

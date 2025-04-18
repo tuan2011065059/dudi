@@ -21,6 +21,9 @@
 .footer .container .content ul li p{
     margin-left: 20px;
 }
+.footer .container .content ul li a{
+    text-decoration: none;
+}
 .footer .container .content ul li i{
     margin-top: 7px;
 }

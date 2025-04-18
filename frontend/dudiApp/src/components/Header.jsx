@@ -52,7 +52,8 @@
 
 import React, { useState } from "react";
 import "./Header.css";
-
+import LanguageSwitcher from "./LanguageSwitcher";
+ 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [activeMenuItem, setActiveMenuItem] = useState(""); // State để theo dõi mục đang chọn
@@ -117,6 +118,9 @@ const Header = () => {
                                 >
                                     Blog
                                 </a>
+                            </li>
+                            <li>
+                                <LanguageSwitcher/>
                             </li>
                             {/* <button>Request a quote</button> */}
                         </ul>

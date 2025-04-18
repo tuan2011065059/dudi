@@ -15,15 +15,19 @@ const Foodter = () => {
                         </li>
                         <li className='d-flex'>
                             <i class="fa fa-map-marker-alt"></i>
+                            <a href="https://maps.app.goo.gl/e36hZBugTm8dBDvC9">
                             <p>232 Nguyen Thi Minh Khai, Vo Thi Sau Ward, <br /> District 3, Ho Chi Minh City, Vietnam</p>
+                            </a>
                         </li>
                         <li className='d-flex'>
                             <i class="fa fa-phone"></i>
-                            <p>0318776997</p>
+                           
+                            <p>Gọi ngay: <a href="tel:0318776997">0318776997</a></p>
                         </li>
                         <li className='d-flex'>
                             <i class="fa fa-envelope"></i>
-                            <p>dudisoftware@gmail.com</p>
+                            
+                            <p>Liên hệ: <a href="mailto:dudisoftware@gmail.com">dudisoftware@gmail.com</a></p>
                         </li>
                         <li className='d-flex'>
                             <input pattern="[a-zA-Z0-9._%+-]+@gmail\.com" 
@@ -31,9 +35,15 @@ const Foodter = () => {
                             <button className='btn btn-danger'>Subscribe</button>
                         </li>
                         <li className="mxh">
+                            <a href="">
                             <i className="fab fa-facebook" />
+                            </a>
+                            <a href="">
                             <i className="fab fa-linkedin-in" />
+                            </a>
+                            <a href="">
                             <i className="fab fa-twitter" />
+                            </a>
                         </li>
 
                     </ul>

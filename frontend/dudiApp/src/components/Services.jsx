@@ -10,7 +10,7 @@ const Services = () => {
             </div>
             <div className="grid-container container">
                 <div className="item item1">
-                    <div className='content'>
+                    <div className='content'> 
                         <div className='left'>
                             <h3>Computer <br />Progamming</h3>
                             <i class="fa fa-arrow-right"></i>

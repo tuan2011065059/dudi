@@ -3,6 +3,7 @@ import Case from "./components/Case"
 import Contact from "./components/Contact"
 import Foodter from "./components/Foodter"
 import Header from "./components/Header"
+import LanguageSwitcher from "./components/LanguageSwitcher"
 import Make from "./components/Make"
 import Promote from "./components/Promote"
 import Recruitment from "./components/Recruitment"
@@ -29,6 +30,7 @@ function App() {
       <Contact/>
       <Foodter/>
       <BackToTop/>
+      
     </>
   )
 }

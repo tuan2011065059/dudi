@@ -80,12 +80,12 @@ const Testimo = () => {
       </Swiper>
 
       {/* Nút điều hướng */}
-      <div className="swiper-button-prev">
+      {/* <div className="swiper-button-prev">
         <FontAwesomeIcon icon={faArrowLeft} />
       </div>
       <div className="swiper-button-next">
         <FontAwesomeIcon icon={faArrowRight} />
-      </div>
+      </div> */}
     </div>
     </>
   );

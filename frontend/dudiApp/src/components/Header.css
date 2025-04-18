@@ -28,7 +28,7 @@
     font-weight: 600;
   }
   .header .container a:hover{
-    color: orange;
+    color: #ff0000;
   }
   .header .container button:hover{
       background-color: orange;
